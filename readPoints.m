@@ -1,0 +1,1 @@
+function readPoints(path = "mydata.txt")  data = load(path);     plot(data(:,1),data(:,2));  xlabel("Temps [s]");  ylabel("Amplitude [u]");  title("Fonction inconnue");   grid;    x = data(:1);  y = f(x); endfunction
